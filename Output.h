@@ -33,7 +33,7 @@ ofTime ofGetCurrentTime(){
 }
 
 #else
-#include <ofMath.h>
+#include <ofMa.h>
 #include <ofVec3f.h>
 #include <ofVec4f.h>
 #include <ofQuaternion.h>
