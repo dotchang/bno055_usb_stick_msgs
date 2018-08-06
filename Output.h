@@ -6,7 +6,6 @@
 #if _WITHOUT_OPENFRAMEWORKS
 #define _USE_MATH_DEFINES
 #include <math.h>
-#define PI M_PI
 
 class ofVec3f {
 public:
@@ -37,6 +36,7 @@ ofTime ofGetCurrentTime(){
 #include <ofVec3f.h>
 #include <ofVec4f.h>
 #include <ofQuaternion.h>
+#define M_PI PI
 #endif
 
 namespace bno055_usb_stick_msgs {
