@@ -3,7 +3,7 @@
 
 #define _WITHOUT_OPENFRAMEWORKS 1
 
-#ifdef _WITHOUT_OPENFRAMEWORKS
+#if _WITHOUT_OPENFRAMEWORKS
 #define _USE_MATH_DEFINES
 #include <math.h>
 #define PI M_PI
