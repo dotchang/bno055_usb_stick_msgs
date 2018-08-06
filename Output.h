@@ -20,8 +20,12 @@ public:
 class ofQuaternion {
 public:
 	ofQuaternion() {}
-	ofQuaternion(double _x, double _y, double _z, double _w) : x(_x), y(_y), z(_z), w(_w) {}
-	double x, y, z, w;
+	ofQuaternion(double _x, double _y, double _z, double _w) : x_(_x), y_(_y), z_(_z), w_(_w) {}
+	double x() { return x_; }
+	double y() { return y_; }
+	double z() { return z_; }
+	double w() { return w_; }
+	double x_, y_, z_, w_;
 };
 
 #include <time.h>
